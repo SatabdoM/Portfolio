@@ -56,7 +56,7 @@ const App = () => {
       {/* Experience Component */}
       <About></About>
 
-      <Skills></Skills>
+      <Skills ></Skills>
 
       <KnowMe></KnowMe>
 

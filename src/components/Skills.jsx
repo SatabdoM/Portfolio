@@ -5,7 +5,7 @@ const Skills = () => {
   return (
     <div
       id="skills"
-      className="h-max  flex flex-col  justify-center items-center  "
+      className="h-max p-10 flex flex-col  justify-center items-center  "
     >
       <div className="">
         <h2 className="text-4xl text-center font-semibold  cursor-pointer hover:text-tailwindblue-200  transition duration-500 p-4">
@@ -66,6 +66,7 @@ function MyTabs() {
                 </h2>
               </div>
             </div>
+            
             {/* <div className="h-60 w-72 md:h-80 md:w-80 lg:h-96 lg:w-96 p-4  transform group   transition-transform duration-300">
               <div className="h-full w-full bg-richblack-5 bg-opacity-5 rounded-md font-semibold p-3 shadow-box">
                 <h2 className="group-hover:text-tailwindblue-200 transition-transform duration-600 text-center text-lg">
