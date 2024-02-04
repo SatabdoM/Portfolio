@@ -52,7 +52,7 @@ function MyTabs() {
 
         <Tab.Panels className="h-full w-full mt-2 p-2">
 
-          <Tab.Panel className="h-full flex flex-col flex-wrap justify-start items-center md:flex-row md:justify-center md:items-start">
+          <Tab.Panel className="h-full flex flex-col flex-wrap justify-start items-center lg:flex-row lg:justify-center lg:items-start">
           
           <div className="h-60 w-72 md:h-80 md:w-80 lg:h-96 lg:w-96 p-4  transform group   transition duration-500">
               <div className="h-full w-full bg-richblack-5 bg-opacity-5 rounded-md font-semibold p-3 shadow-box">
