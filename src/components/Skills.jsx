@@ -20,8 +20,8 @@ const Skills = () => {
 function MyTabs() {
   return (
     <Tab.Group>
-      <div className="flex flex-col items-center h-lvh md:h-full ">
-        <Tab.List className="max-w-96 w-3/4 rounded-md border border-richblack-700 flex  overflow-hidden text-lg font-bold">
+      <div className="flex flex-col items-center h-lvh md:h-full p-2">
+        <Tab.List className="max-w-96 w-3/4 rounded-md border border-richblack-700 flex  overflow-hidden text-lg font-bold ">
           <Tab className=" group w-full">
             {({ selected }) => (
               <button
@@ -77,14 +77,14 @@ function MyTabs() {
           </Tab.Panel>
 
           <Tab.Panel className="h-full flex flex-col justify-start items-center md:flex-row flex-wrap md:justify-center md:items-start">
-            <div className="h-60 w-72 md:h-80 md:w-80 lg:h-96 lg:w-96 p-4  transform group   transition-transform duration-300">
+            <div className="h-80 w-80 lg:h-96 lg:w-96  p-4  transform group   transition-transform duration-300">
               <div className="h-full w-full bg-richblack-5 bg-opacity-5 rounded-md font-semibold p-3 shadow-box">
                 <h2 className="group-hover:text-tailwindblue-200 transition-transform duration-600 text-center text-lg">
                   Leetcode
                 </h2>
               </div>
             </div>
-            <div className="h-60 w-72 md:h-80 md:w-80 lg:h-96 lg:w-96 p-4  transform group   transition-transform duration-300">
+            <div className="h-80 w-80 lg:h-96 lg:w-96  p-4  transform group   transition-transform duration-300">
               <div className="h-full w-full bg-richblack-5 bg-opacity-5 rounded-md font-semibold p-3 shadow-box">
                 <h2 className="group-hover:text-tailwindblue-200 transition-transform duration-600 text-center text-lg">
                   CodeForces
