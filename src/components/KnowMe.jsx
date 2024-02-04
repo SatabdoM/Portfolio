@@ -1,5 +1,5 @@
 import React from 'react'
-import face from "../assets/face.jpeg"
+import face from "../assets/Face.jpeg"
 
 const KnowMe = () => {
   return (
