@@ -57,7 +57,7 @@ const App = () => {
       {/* <About></About> */}
       
 
-      <Skills></Skills>
+      {/* <Skills></Skills> */}
       
       <KnowMe></KnowMe>
 
