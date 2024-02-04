@@ -27,7 +27,7 @@ function MyTabs() {
               <button
                 className={`w-full ${
                   selected
-                    ? "text-tailwindblue-800 font-bold border-richblack-700 p-3 bg-tailwindblue-200"
+                    ? "text-tailwindblue-800 font-bold border-richblack-700 lg:p-3 bg-tailwindblue-200"
                     : ""
                 }`}
               >
@@ -40,7 +40,7 @@ function MyTabs() {
               <button
                 className={`w-full ${
                   selected
-                    ? "text-tailwindblue-800 font-bold border-richblack-700 p-3 bg-tailwindblue-200"
+                    ? "text-tailwindblue-800 font-bold border-richblack-700 lg:p-3 bg-tailwindblue-200"
                     : ""
                 }`}
               >
