@@ -54,7 +54,7 @@ const App = () => {
       </nav> */}
       
       {/* Experience Component */}
-      <About></About>
+      {/* <About></About> */}
       
 
       <Skills></Skills>
