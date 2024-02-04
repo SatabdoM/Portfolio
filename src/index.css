@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root {
+  font-family:  sans-serif;
+  --white: #fff;
+  --black: #000;
+  --transparent: #ffffff00;
+
+  --richblack-5: #f1f2ff;
+  --richblack-25: #dbddea;
+  --richblack-50: #c5c7d4;
+  --richblack-100: #afb2bf;
+  --richblack-200: #999daa;
+  --richblack-300: #838894;
+  --richblack-400: #6e727f;
+  --richblack-500: #585d69;
+  --richblack-600: #424854;
+  --richblack-700: #2c333f;
+  --richblack-800: #161d29;
+  --richblack-900: #000814;
+
+  --richblue-5: #ecf5ff;
+  --richblue-25: #c6d6e1;
+  --richblue-50: #a0b7c3;
+  --richblue-100: #7a98a6;
+  --richblue-200: #537988;
+  --richblue-300: #2d5a6a;
+  --richblue-400: #073b4c;
+  --richblue-500: #063544;
+  --richblue-600: #042e3b;
+  --richblue-700: #032833;
+  --richblue-800: #01212a;
+  --richblue-900: #001b22;
+
+  --blue-5: #eaf5ff;
+  --blue-25: #b4daec;
+  --blue-50: #7ec0d9;
+  --blue-100: #47a5c5;
+  --blue-200: #118ab2;
+  --blue-300: #0f7a9d;
+  --blue-400: #0c6a87;
+  --blue-500: #0a5a72;
+  --blue-600: #074b5d;
+  --blue-700: #053b48;
+  --blue-800: #022b32;
+  --blue-900: #001b1d;
+
+  --caribbeangreen-5: #c1fffd;
+  --caribbeangreen-25: #83f1de;
+  --caribbeangreen-50: #44e4bf;
+  --caribbeangreen-100: #06d6a0;
+  --caribbeangreen-200: #05bf8e;
+  --caribbeangreen-300: #05a77b;
+  --caribbeangreen-400: #058105;
+  --caribbeangreen-500: #037957;
+  --caribbeangreen-600: #026144;
+  --caribbeangreen-700: #014a32;
+  --caribbeangreen-800: #01321f;
+  --caribbeangreen-900: #001b0d;
+
+  --brown-5: #fff4c4;
+  --brown-25: #ffe395;
+  --brown-50: #ffd166;
+  --brown-100: #e7bc5b;
+  --brown-200: #cfa64f;
+  --brown-300: #b89144;
+  --brown-400: #a07c39;
+  --brown-500: #88662d;
+  --brown-600: #705122;
+  --brown-700: #593c17;
+  --brown-800: #41260b;
+  --brown-900: #291100;
+
+  --pink-5: #fff1f1;
+  --pink-25: #fbc7d1;
+  --pink-50: #f79cb0;
+  --pink-100: #f37290;
+  --pink-200: #ef476f;
+  --pink-300: #d43d63;
+  --pink-400: #ba3356;
+  --pink-500: #9f294a;
+  --pink-600: #841e3e;
+  --pink-700: #691432;
+  --pink-800: #4f0a25;
+  --pink-900: #340019;
+
+  --yellow-5: #fff970;
+  --yellow-25: #ffe83d;
+  --yellow-50: #ffd60a;
+  --yellow-100: #e7c009;
+  --yellow-200: #cfab08;
+  --yellow-300: #b69507;
+  --yellow-400: #9e8006;
+  --yellow-500: #866a04;
+  --yellow-600: #6e5503;
+  --yellow-700: #553f02;
+  --yellow-800: #3d2a01;
+  --yellow-900: #251400;
+
+  --pure-greys-5: #f9f9f9;
+  --pure-greys-25: #e2e2e2;
+  --pure-greys-50: #cccccc;
+  --pure-greys-100: #b5b5b5;
+  --pure-greys-200: #9e9e9e;
+  --pure-greys-300: #888888;
+  --pure-greys-400: #717171;
+  --pure-greys-500: #5b5b5b;
+  --pure-greys-600: #444444;
+  --pure-greys-700: #2d2d2d;
+  --pure-greys-800: #171717;
+  --pure-greys-900: #141414;
+
+  --russian-violet: #310055ff;
+  --persian-indigo: #3c0663ff;
+  --indigo: #4a0a77ff;
+  --indigo-2: #5a108fff;
+  --grape: #6818a5ff;
+  --dark-violet: #8b2fc9ff;
+  --amethyst: #ab51e3ff;
+  --lavender-floral: #bd68eeff;
+  --heliotrope: #d283ffff;
+  --mauve: #dc97ffff;
+  --seasalt: #f8f9faff;
+  --antiflash-white: #e9ecefff;
+  --platinum: #dee2e6ff;
+  --french-gray: #ced4daff;
+  --french-gray-2: #adb5bdff;
+  --slate-gray: #6c757dff;
+  --outer-space: #495057ff;
+  --onyx: #343a40ff;
+  --eerie-black: #212529ff;
+  /* --tailwind-blue-200: #5CE1E6; */
+  --tailwind-blue-200: #00ABD8;
+
+  --tailwind-blue-800: #0b1120;
+}
+:root {
+  font-family: 'Inter', sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+}
+/* 
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}  */
+
+
+*{
+  /* border: 1px solid black; */
+  color: white;
+}
+.shadow-box {
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.shadow-box:hover {
+  box-shadow: 0px 0px 4px 1px var(--tailwind-blue-200); /* Replace with your desired color and opacity */
+}
+.bg-gradient{
+  background-image: linear-gradient(
+    310deg,
+    hsl(223deg 49% 8%) 62%,
+    hsl(222deg 49% 11%) 81%,
+    hsl(220deg 50% 14%) 89%,
+    hsl(219deg 51% 17%) 93%,
+    hsl(218deg 51% 19%) 96%,
+    hsl(217deg 52% 22%) 97%,
+    hsl(216deg 53% 25%) 98%,
+    hsl(214deg 54% 27%) 99%,
+    hsl(213deg 54% 30%) 100%,
+    hsl(212deg 55% 33%) 100%,
+    hsl(211deg 56% 35%) 100%,
+    hsl(209deg 56% 38%) 101%,
+    hsl(208deg 57% 40%) 101%,
+    hsl(207deg 58% 43%) 101%,
+    hsl(206deg 59% 45%) 101%,
+    hsl(205deg 59% 48%) 101%,
+    hsl(203deg 60% 50%) 100%,
+    hsl(202deg 67% 53%) 100%,
+    hsl(201deg 75% 55%) 100%,
+    hsl(200deg 84% 57%) 100%,
+    hsl(198deg 93% 60%) 100%
+);
+
+}
+
+.bg-gradient-2{
+  background-image: linear-gradient(
+  325deg,
+  hsl(198deg 93% 60%) 0%,
+  hsl(200deg 81% 57%) 0%,
+  hsl(202deg 70% 53%) -1%,
+  hsl(203deg 60% 50%) -1%,
+  hsl(205deg 59% 47%) -1%,
+  hsl(207deg 58% 44%) -1%,
+  hsl(208deg 57% 40%) -2%,
+  hsl(210deg 56% 37%) -2%,
+  hsl(211deg 55% 34%) -2%,
+  hsl(213deg 54% 30%) -1%,
+  hsl(215deg 53% 27%) -1%,
+  hsl(216deg 52% 23%) 0%,
+  hsl(218deg 51% 19%) 2%,
+  hsl(220deg 51% 16%) 5%,
+  hsl(221deg 50% 12%) 11%,
+  hsl(223deg 49% 8%) 28%
+);
+}
+.btn-1{
+  background: var(--tailwind-blue-200);
+  padding: 2rem;
+}
+
+svg path{
+  fill: var(--richblack-500); /* Default color */
+  transition: fill 500ms ease;
+}
+
+svg:hover path {
+  fill: var(--richblack-100); /* Color on hover */
+}
+
+.face{
+  transition: box-shadow 0.3s ease-in-out;
+}
+.group:hover .face {
+  box-shadow: 0px 0px 4px 1px var(--tailwind-blue-200); /* Replace with your desired color and opacity */
+}
