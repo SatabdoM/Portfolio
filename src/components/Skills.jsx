@@ -5,9 +5,9 @@ const Skills = () => {
   return (
     <div
       id="skills"
-      className="h-max w-full flex flex-col  justify-center items-center  p-8"
+      className="h-max  flex flex-col  justify-center items-center  "
     >
-      <div className="w-full md:w-10/12 h-full ">
+      <div className="">
         <h2 className="text-4xl text-center font-semibold  cursor-pointer hover:text-tailwindblue-200  transition duration-500 p-4">
           Skills
         </h2>

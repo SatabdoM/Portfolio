@@ -207,7 +207,7 @@ button:focus-visible {
 
 
 *{
-  /* border: 1px solid black; */
+  border: 1px solid black;
   color: white;
 }
 .shadow-box {
