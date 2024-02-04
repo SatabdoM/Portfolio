@@ -52,13 +52,12 @@ const App = () => {
           </button>
         </div>
       </nav> */}
-      
+
       {/* Experience Component */}
       <About></About>
-      
 
-      {/* <Skills></Skills> */}
-      
+      <Skills></Skills>
+
       <KnowMe></KnowMe>
 
       {/* Projects Component */}
@@ -88,7 +87,6 @@ const App = () => {
           <p>Bachelor's Degree in Computer Science</p>
         </div>
       </section>
-      
     </div>
   );
 };

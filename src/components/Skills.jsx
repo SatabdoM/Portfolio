@@ -5,7 +5,7 @@ const Skills = () => {
   return (
     <div
       id="skills"
-      className="h-max flex flex-col  justify-center items-center  p-8"
+      className="h-max w-full flex flex-col  justify-center items-center  p-8"
     >
       <div className="w-full md:w-10/12 h-full ">
         <h2 className="text-4xl text-center font-semibold  cursor-pointer hover:text-tailwindblue-200  transition duration-500 p-4">
