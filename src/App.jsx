@@ -13,7 +13,7 @@ const App = () => {
   };
 
   return (
-    <div className="bg-gradient">
+    <div className="bg-gradient w-full">
       <nav
         className={`fixed  w-full top-0 z-50 flex justify-between px-10  transition-all duration-500 ease-in-out border-b border-0.2 border-richblack-700 bg-richblack-800 bg-opacity-30 backdrop-blur-xl `}
       >
