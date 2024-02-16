@@ -56,7 +56,7 @@ function MyTabs() {
 
           <Tab.Panel className="h-full flex flex-col flex-wrap justify-center items-center md:flex-row lg:justify-center lg:items-start">
             
-            <div className="h-80 w-80 md:h-96 md:w-96 p-4  transform group   transition duration-500">
+            <div className="h-96 w-80 md:h-96 md:w-96 p-4  transform group   transition duration-500">
               <div className="h-full w-full bg-richblack-5 bg-opacity-5 rounded-md font-semibold p-3 shadow-box">
                 <h2 className="group-hover:text-tailwindblue-200 transition-transform duration-600 text-center text-lg">
                   Front-End
@@ -73,7 +73,7 @@ function MyTabs() {
                 
               </div>
             </div>
-            <div className="h-80 w-80 md:h-96 md:w-96 p-4  transform group  transition-transform duration-300">
+            <div className="h-96 w-80 md:h-96 md:w-96 p-4  transform group  transition-transform duration-300">
               <div className="h-full w-full bg-richblack-5 bg-opacity-5 rounded-md font-semibold p-3 shadow-box">
                 <h2 className="group-hover:text-tailwindblue-200 transition-transform duration-600 text-center text-lg">
                   Back-End
@@ -81,7 +81,7 @@ function MyTabs() {
               </div>
             </div>
 
-            <div className="h-80 w-80 md:h-96 md:w-96 p-4  transform group  transition-transform duration-300">
+            <div className="h-96 w-80 md:h-96 md:w-96 p-4  transform group  transition-transform duration-300">
               <div className="h-full w-full bg-richblack-5 bg-opacity-5 rounded-md font-semibold p-3 shadow-box">
                 <h2 className="group-hover:text-tailwindblue-200 transition-transform duration-600 text-center text-lg">
                   Dev-Ops
@@ -89,7 +89,7 @@ function MyTabs() {
               </div>
             </div>
 
-            <div className="h-80 w-80 md:h-96 md:w-96 p-4  transform group  transition-transform duration-300">
+            <div className="h-96 w-80 md:h-96 md:w-96 p-4  transform group  transition-transform duration-300">
               <div className="h-full w-full bg-richblack-5 bg-opacity-5 rounded-md font-semibold p-3 shadow-box">
                 <h2 className="group-hover:text-tailwindblue-200 transition-transform duration-600 text-center text-lg">
                   Tools
