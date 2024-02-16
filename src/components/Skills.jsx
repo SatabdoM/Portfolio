@@ -61,7 +61,7 @@ function MyTabs() {
                 <h2 className="group-hover:text-tailwindblue-200 transition-transform duration-600 text-center text-lg">
                   Front-End
                 </h2>
-                <div className="p-2">
+                <div className="p-4 flex flex-wrap gap-2">
                 {
                   frontend.map((item, index) => (
                     <Tech key={index} item={item} />
@@ -124,7 +124,7 @@ function MyTabs() {
 const Tech=({item})=>{
 
   return(
-    <div className=" flex w-max p-2 gap-1 rounded-md items-center text-sm bg-richblack-900 bg-opacity-30">
+    <div className=" flex w-max p-2 gap-2 rounded-md items-center text-sm bg-richblack-900 bg-opacity-20">
         <img src={item.link} alt=""  className="h-8 w-8"/>
         <p className="group-hover:text-tailwindblue-200 transition-transform duration-600">{item.name}</p>
     </div>
