@@ -10,7 +10,7 @@ const About = () => {
         <div className=" h-full flex flex-col justify-center gap-3 ">
           <div className="group">
             <h1 className="text-6xl font-semibold group-hover:text-tailwindblue-200 cursor-pointer transition duration-500 ">
-              Satabdo
+             Hello Satabdo
             </h1>
             <h1 className="text-6xl font-semibold group-hover:text-tailwindblue-200 cursor-pointer transition duration-500 ">
               Majumder
